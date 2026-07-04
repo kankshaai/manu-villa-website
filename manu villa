@@ -1,0 +1,1198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Manu Villa — Homestay @ Sahyadri Farm, Bhor, Pune</title>
+<meta name="description" content="Manu Villa is a peaceful homestay overlooking the Bhatgar Dam backwaters in Karandi-Kambre, Bhor, Pune. Surrounded by 50+ trees on Sahyadri Farm — bonfire, barbecue, garden swing and open dining for families and friends.">
+<meta name="keywords" content="Manu Villa, homestay Bhor, Sahyadri Farm, Bhatgar Dam backwater stay, farmhouse near Pune, weekend getaway Pune">
+<meta name="author" content="Manu Villa">
+<meta property="og:title" content="Manu Villa — Homestay @ Sahyadri Farm">
+<meta property="og:description" content="Experience Nature • Backwater Views • Peaceful Stay — Karandi-Kambre, Bhor, Pune.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="images/gallery-1.jpg">
+<link rel="icon" href="images/favicon.png" type="image/png">
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,450;0,9..144,600;1,9..144,450&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<!-- AOS animation library -->
+<link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ================= PRELOADER ================= -->
+<div id="preloader" aria-hidden="true">
+  <div class="leaf-loader">
+    <svg viewBox="0 0 100 100" width="56" height="56">
+      <path class="leaf-path" d="M50 10 C75 20, 90 45, 50 90 C10 45, 25 20, 50 10 Z" fill="none" stroke="#C9A227" stroke-width="2.5"/>
+    </svg>
+  </div>
+</div>
+
+<!-- ================= NAVBAR ================= -->
+<header class="navbar" id="navbar">
+  <div class="nav-inner">
+    <a href="#home" class="brand">
+      <svg class="brand-leaf" viewBox="0 0 24 24" width="22" height="22" aria-hidden="true">
+        <path d="M12 2C7 4 4 9 4 14c0 4.4 3.6 8 8 8s8-3.6 8-8c0-5-3-10-8-12z" fill="#C9A227"/>
+      </svg>
+      <span>MANU VILLA</span>
+    </a>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#home" class="nav-link active">Home</a>
+      <a href="#about" class="nav-link">About</a>
+      <a href="#gallery" class="nav-link">Gallery</a>
+      <a href="#amenities" class="nav-link">Amenities</a>
+      <a href="#pricing" class="nav-link">Pricing</a>
+      <a href="#reviews" class="nav-link">Reviews</a>
+      <a href="#location" class="nav-link">Location</a>
+      <a href="#contact" class="nav-link nav-cta">Contact</a>
+    </nav>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ================= HERO ================= -->
+<section class="hero" id="home">
+  <video class="hero-video" autoplay muted loop playsinline poster="images/hero-poster.jpg">
+    <source src="videos/hero.mp4" type="video/mp4">
+  </video>
+  <div class="hero-overlay"></div>
+  <div class="hero-grain"></div>
+
+  <div class="hero-content">
+    <p class="hero-eyebrow" data-aos="fade-down" data-aos-delay="100">SAHYADRI FARM · KARANDI-KAMBRE · BHOR</p>
+    <h1 class="hero-title" data-aos="fade-up" data-aos-delay="200">
+      MANU <span>VILLA</span>
+    </h1>
+    <p class="hero-sub" data-aos="fade-up" data-aos-delay="350">Homestay @ Sahyadri Farm</p>
+    <p class="hero-tag" data-aos="fade-up" data-aos-delay="450">Experience Nature <span class="dot">•</span> Backwater Views <span class="dot">•</span> Peaceful Stay</p>
+
+    <div class="hero-buttons" data-aos="fade-up" data-aos-delay="600">
+      <a href="https://wa.me/918983770370?text=Hi%20Manu%20Villa%2C%20I%27d%20like%20to%20book%20a%20stay" target="_blank" rel="noopener" class="btn btn-whatsapp">
+        <svg viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.87.5 3.63 1.44 5.16L2 22l5.09-1.53a9.86 9.86 0 0 0 4.95 1.32h.01c5.46 0 9.91-4.45 9.91-9.91S17.5 2 12.04 2zm5.8 14a1.6 1.6 0 0 1-1.11.79c-.3.06-.68.11-2.02-.43-1.7-.68-3.28-2.06-4.54-3.86-.7-.97-1.13-1.88-1.13-2.72 0-.55.21-1 .48-1.4.24-.35.53-.4.72-.4.19 0 .38 0 .55.01.18.01.42-.07.66.5.24.58.82 2 .9 2.15.08.15.13.32.02.5-.1.19-.16.31-.3.48-.15.17-.31.38-.44.51-.14.14-.29.29-.13.57.17.29.76 1.25 1.63 2.03 1.12 1 2.06 1.31 2.35 1.46.29.14.46.12.63-.07.18-.19.72-.84.91-1.13.19-.28.38-.24.63-.14.26.1 1.63.77 1.91.91.29.14.48.21.55.33.07.12.07.7-.17 1.34z"/></svg>
+        Book on WhatsApp
+      </a>
+      <a href="tel:+918983770370" class="btn btn-call">
+        <svg viewBox="0 0 24 24" width="17" height="17"><path fill="currentColor" d="M6.6 10.8c1.4 2.8 3.8 5.2 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.2.5 2.5.8 3.8.8.6 0 1 .4 1 1v3.6c0 .6-.4 1-1 1C10.5 21.4 2.6 13.5 2.6 3.8c0-.6.4-1 1-1H7.2c.6 0 1 .4 1 1 0 1.3.3 2.6.8 3.8.2.3.1.7-.2 1L6.6 10.8z"/></svg>
+        Call Now
+      </a>
+      <a href="#location" class="btn btn-outline">
+        <svg viewBox="0 0 24 24" width="17" height="17"><path fill="currentColor" d="M12 2C7.6 2 4 5.6 4 10c0 5.5 6.5 11.3 7.4 12.1.3.3.9.3 1.2 0C13.5 21.3 20 15.5 20 10c0-4.4-3.6-8-8-8zm0 10.8A2.8 2.8 0 1 1 12 6.4a2.8 2.8 0 0 1 0 5.6z"/></svg>
+        View Location
+      </a>
+    </div>
+  </div>
+
+  <a href="#about" class="scroll-cue" aria-label="Scroll down">
+    <span></span>
+  </a>
+</section>
+
+<!-- ================= RIVER DIVIDER ================= -->
+<div class="river-divider" aria-hidden="true">
+  <svg viewBox="0 0 1440 90" preserveAspectRatio="none">
+    <path class="river-path" d="M0,40 C240,90 480,0 720,40 C960,80 1200,10 1440,50 L1440,90 L0,90 Z"></path>
+  </svg>
+</div>
+
+<!-- ================= ABOUT ================= -->
+<section class="about" id="about">
+  <div class="container about-grid">
+    <div class="about-media" data-aos="fade-right">
+      <div class="about-frame">
+        <img src="images/about-1.jpg" alt="Manu Villa farmhouse overlooking Bhatgar backwaters" loading="lazy" onerror="this.closest('.about-frame').classList.add('img-fallback')">
+      </div>
+      <div class="about-badge">
+        <span class="num">50+</span>
+        <span class="label">Trees on the Farm</span>
+      </div>
+    </div>
+
+    <div class="about-copy" data-aos="fade-left">
+      <p class="section-eyebrow">The Story</p>
+      <h2 class="section-title">A Quiet Corner of the <em>Sahyadris</em></h2>
+      <p class="lead-text">Manu Villa is a peaceful homestay overlooking the beautiful Bhatgar Dam backwaters. Surrounded by more than 50 trees inside Sahyadri Farm, it is the perfect place for families, friends and nature lovers looking for a relaxing getaway.</p>
+
+      <ul class="about-points">
+        <li><span class="tick">✔</span> Nestled on a private working farm in the Sahyadri foothills</li>
+        <li><span class="tick">✔</span> Uninterrupted views of the Bhatgar backwaters</li>
+        <li><span class="tick">✔</span> A calm, green retreat away from the city</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ================= AMENITIES ================= -->
+<section class="amenities" id="amenities">
+  <div class="container">
+    <p class="section-eyebrow center">What's Included</p>
+    <h2 class="section-title center">Everything For a Restful Stay</h2>
+
+    <div class="amenity-grid">
+
+      <div class="amenity-card" data-aos="fade-up" data-aos-delay="0">
+        <div class="amenity-icon">🛏️</div>
+        <h3>Stay for 15+ Guests</h3>
+        <p>Spacious enough for a full family reunion or friends' getaway.</p>
+      </div>
+
+      <div class="amenity-card" data-aos="fade-up" data-aos-delay="50">
+        <div class="amenity-icon">🌊</div>
+        <h3>Scenic Backwater View</h3>
+        <p>Wake up to the Bhatgar Dam backwaters right outside.</p>
+      </div>
+
+      <div class="amenity-card" data-aos="fade-up" data-aos-delay="100">
+        <div class="amenity-icon">🔥</div>
+        <h3>Bonfire</h3>
+        <p>Evenings around a crackling fire under open skies.</p>
+      </div>
+
+      <div class="amenity-card" data-aos="fade-up" data-aos-delay="150">
+        <div class="amenity-icon">🍢</div>
+        <h3>Barbecue Area</h3>
+        <p>A dedicated space to grill and gather with family.</p>
+      </div>
+
+      <div class="amenity-card" data-aos="fade-up" data-aos-delay="200">
+        <div class="amenity-icon">🌳</div>
+        <h3>Swing</h3>
+        <p>A farmhouse swing tucked beneath the trees.</p>
+      </div>
+
+      <div class="amenity-card" data-aos="fade-up" data-aos-delay="250">
+        <div class="amenity-icon">🍽️</div>
+        <h3>Open Dining</h3>
+        <p>Home-style meals served in the open farm air.</p>
+      </div>
+
+      <div class="amenity-card" data-aos="fade-up" data-aos-delay="300">
+        <div class="amenity-icon">🌿</div>
+        <h3>Garden</h3>
+        <p>Manicured green lawns bordered by farm trees.</p>
+      </div>
+
+      <div class="amenity-card" data-aos="fade-up" data-aos-delay="350">
+        <div class="amenity-icon">🚗</div>
+        <h3>Parking</h3>
+        <p>Ample on-site parking for multiple vehicles.</p>
+      </div>
+
+      <div class="amenity-card" data-aos="fade-up" data-aos-delay="400">
+        <div class="amenity-icon">👨‍👩‍👧‍👦</div>
+        <h3>Family Friendly</h3>
+        <p>Safe, open spaces that welcome kids and elders alike.</p>
+      </div>
+
+      <div class="amenity-card" data-aos="fade-up" data-aos-delay="450">
+        <div class="amenity-icon">🥾</div>
+        <h3>Nature Walk</h3>
+        <p>Trails through the farm and along the water's edge.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ================= GALLERY ================= -->
+<section class="gallery" id="gallery">
+  <div class="container">
+    <p class="section-eyebrow center">In Pictures</p>
+    <h2 class="section-title center">A Glimpse of the Farm</h2>
+    <p class="section-note center">Every photo in the <code>/images</code> folder appears here automatically.</p>
+
+    <div class="masonry" id="masonryGallery" data-aos="fade-up" data-aos-delay="100">
+      <!-- populated by script.js -->
+    </div>
+  </div>
+</section>
+
+<!-- Lightbox -->
+<div class="lightbox" id="lightbox">
+  <button class="lightbox-close" id="lightboxClose" aria-label="Close">&times;</button>
+  <button class="lightbox-nav prev" id="lightboxPrev" aria-label="Previous">&#8249;</button>
+  <img id="lightboxImg" src="" alt="Manu Villa gallery photo">
+  <button class="lightbox-nav next" id="lightboxNext" aria-label="Next">&#8250;</button>
+</div>
+
+<!-- ================= PRICING ================= -->
+<section class="pricing" id="pricing">
+  <div class="container">
+    <p class="section-eyebrow center">Tariff</p>
+    <h2 class="section-title center">Simple, Honest Pricing</h2>
+
+    <div class="pricing-grid">
+      <div class="price-card" data-aos="zoom-in" data-aos-delay="0">
+        <p class="price-tag">Base Stay</p>
+        <h3 class="price-amount"><span class="rupee">₹</span>3000</h3>
+        <p class="price-desc">For 2 Guests</p>
+        <ul class="price-list">
+          <li>Overnight stay for 2</li>
+          <li>Access to garden, swing &amp; backwater views</li>
+          <li>Bonfire on request</li>
+        </ul>
+        <a href="https://wa.me/918983770370?text=Hi%2C%20I%27d%20like%20to%20book%20Manu%20Villa" target="_blank" rel="noopener" class="btn btn-gold">Book Now</a>
+      </div>
+
+      <div class="price-card featured" data-aos="zoom-in" data-aos-delay="150">
+        <p class="price-badge">Most Booked</p>
+        <p class="price-tag">Additional Guest</p>
+        <h3 class="price-amount"><span class="rupee">₹</span>600</h3>
+        <p class="price-desc">Per Additional Guest</p>
+        <ul class="price-list">
+          <li>Ideal for groups &amp; families</li>
+          <li>Shared common areas &amp; open dining</li>
+          <li>Barbecue &amp; nature walk included</li>
+        </ul>
+        <a href="https://wa.me/918983770370?text=Hi%2C%20I%27d%20like%20to%20book%20Manu%20Villa" target="_blank" rel="noopener" class="btn btn-gold">Book Now</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= REVIEWS ================= -->
+<section class="reviews" id="reviews">
+  <div class="container">
+    <p class="section-eyebrow center">Guest Reviews</p>
+    <h2 class="section-title center">What Our Guests Say</h2>
+
+    <div class="rating-badge" data-aos="fade-up">
+      <span class="stars">★★★★★</span>
+      <span class="rating-number">4.9/5</span>
+      <span class="rating-source">Google Rating</span>
+    </div>
+
+    <div class="review-grid">
+      <blockquote class="review-card" data-aos="fade-up" data-aos-delay="0">
+        <p>"If you're looking for a serene getaway that combines natural beauty, comfort, and outstanding hospitality, look no further than Manu Villa."</p>
+        <footer>— Google Review</footer>
+      </blockquote>
+
+      <blockquote class="review-card" data-aos="fade-up" data-aos-delay="100">
+        <p>"Peaceful atmosphere with breathtaking sunrise views."</p>
+        <footer>— Google Review</footer>
+      </blockquote>
+
+      <blockquote class="review-card" data-aos="fade-up" data-aos-delay="200">
+        <p>"Perfect for families and weekend trips."</p>
+        <footer>— Google Review</footer>
+      </blockquote>
+    </div>
+  </div>
+</section>
+
+<!-- ================= LOCATION ================= -->
+<section class="location" id="location">
+  <div class="container location-grid">
+    <div class="location-copy" data-aos="fade-right">
+      <p class="section-eyebrow">Find Us</p>
+      <h2 class="section-title">On the Banks of Bhatgar</h2>
+      <p class="lead-text">Manu Villa, Sahyadri Farm, Kambre Bk., Tal. Bhor, Pune, Maharashtra 412213</p>
+      <a href="https://www.google.com/maps/search/?api=1&query=Manu+Villa+Sahyadri+Farm+Kambre+Bk+Bhor+Pune+Maharashtra+412213" target="_blank" rel="noopener" class="btn btn-outline-dark">Get Directions</a>
+    </div>
+    <div class="location-map" data-aos="fade-left">
+      <iframe
+        title="Manu Villa Location Map"
+        src="https://www.google.com/maps?q=Manu+Villa+Sahyadri+Farm+Kambre+Bk+Bhor+Pune+Maharashtra+412213&output=embed"
+        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section class="contact" id="contact">
+  <div class="container">
+    <p class="section-eyebrow center">Get in Touch</p>
+    <h2 class="section-title center">Plan Your Stay</h2>
+
+    <div class="contact-grid">
+      <a href="tel:+918983770370" class="contact-card" data-aos="fade-up" data-aos-delay="0">
+        <div class="contact-icon">📞</div>
+        <h3>Phone</h3>
+        <p>+91 89837 70370</p>
+      </a>
+
+      <a href="https://wa.me/918983770370" target="_blank" rel="noopener" class="contact-card" data-aos="fade-up" data-aos-delay="100">
+        <div class="contact-icon">💬</div>
+        <h3>WhatsApp</h3>
+        <p>+91 89837 70370</p>
+      </a>
+
+      <a href="mailto:pimpodkars@gmail.com" class="contact-card" data-aos="fade-up" data-aos-delay="200">
+        <div class="contact-icon">✉️</div>
+        <h3>Email</h3>
+        <p>pimpodkars@gmail.com</p>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="brand footer-brand">
+      <svg class="brand-leaf" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">
+        <path d="M12 2C7 4 4 9 4 14c0 4.4 3.6 8 8 8s8-3.6 8-8c0-5-3-10-8-12z" fill="#C9A227"/>
+      </svg>
+      <span>MANU VILLA</span>
+    </div>
+    <p class="footer-copy">© <span id="year"></span> Manu Villa | Designed with ❤</p>
+  </div>
+</footer>
+
+<!-- ================= FLOATING BUTTONS ================= -->
+<a href="https://wa.me/918983770370?text=Hi%20Manu%20Villa%2C%20I%27d%20like%20to%20enquire%20about%20a%20stay" target="_blank" rel="noopener" class="fab fab-whatsapp" aria-label="Chat on WhatsApp">
+  <svg viewBox="0 0 24 24" width="26" height="26"><path fill="currentColor" d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.87.5 3.63 1.44 5.16L2 22l5.09-1.53a9.86 9.86 0 0 0 4.95 1.32h.01c5.46 0 9.91-4.45 9.91-9.91S17.5 2 12.04 2zm5.8 14a1.6 1.6 0 0 1-1.11.79c-.3.06-.68.11-2.02-.43-1.7-.68-3.28-2.06-4.54-3.86-.7-.97-1.13-1.88-1.13-2.72 0-.55.21-1 .48-1.4.24-.35.53-.4.72-.4.19 0 .38 0 .55.01.18.01.42-.07.66.5.24.58.82 2 .9 2.15.08.15.13.32.02.5-.1.19-.16.31-.3.48-.15.17-.31.38-.44.51-.14.14-.29.29-.13.57.17.29.76 1.25 1.63 2.03 1.12 1 2.06 1.31 2.35 1.46.29.14.46.12.63-.07.18-.19.72-.84.91-1.13.19-.28.38-.24.63-.14.26.1 1.63.77 1.91.91.29.14.48.21.55.33.07.12.07.7-.17 1.34z"/></svg>
+</a>
+<a href="tel:+918983770370" class="fab fab-call" aria-label="Call Manu Villa">
+  <svg viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M6.6 10.8c1.4 2.8 3.8 5.2 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.2.5 2.5.8 3.8.8.6 0 1 .4 1 1v3.6c0 .6-.4 1-1 1C10.5 21.4 2.6 13.5 2.6 3.8c0-.6.4-1 1-1H7.2c.6 0 1 .4 1 1 0 1.3.3 2.6.8 3.8.2.3.1.7-.2 1L6.6 10.8z"/></svg>
+</a>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
+
+MANU VILLA — Website Setup Notes
+=================================
+
+FOLDER STRUCTURE
+  index.html
+  style.css
+  script.js
+  images/
+  videos/hero.mp4
+
+1) HERO VIDEO
+   Place your video at:  videos/hero.mp4
+   - Landscape, ideally 1920x1080 or larger, under ~15MB for fast loading.
+   - It will autoplay, loop, and mute automatically.
+   - Optional: add a poster frame at images/hero-poster.jpg (shown while the
+     video loads on slow connections).
+
+2) GALLERY IMAGES (auto-loading, no code changes needed)
+   Drop photos into the /images folder using ANY of these filenames and they
+   will appear in the masonry gallery automatically:
+     gallery-1.jpg, gallery-2.jpg, gallery-3.jpg ... up to gallery-30.jpg
+   (jpg, jpeg, png and webp are all supported — e.g. gallery-1.webp works too)
+
+   You can add as few or as many as you like — the site only displays the
+   ones that actually exist.
+
+3) ABOUT SECTION PHOTO
+   Add a portrait-oriented image at:  images/about-1.jpg
+   (This is the framed photo next to the "50+ Trees" badge.)
+
+4) FAVICON (optional)
+   Add a square logo at: images/favicon.png
+
+5) SOCIAL PREVIEW IMAGE (optional)
+   images/gallery-1.jpg is reused as the link-preview image (og:image) when
+   the site is shared on WhatsApp/Facebook/etc. — make sure it exists once
+   you add gallery photos.
+
+That's it — no build step, no npm install. Just open index.html in a browser,
+or upload the whole folder to any static web host (Netlify, Vercel, GitHub
+Pages, or your own hosting).
+
+/* ==========================================================================
+   MANU VILLA — main script
+   ========================================================================== */
+
+document.addEventListener('DOMContentLoaded', () => {
+
+  /* ---------- Preloader ---------- */
+  const preloader = document.getElementById('preloader');
+  window.addEventListener('load', () => {
+    setTimeout(() => preloader && preloader.classList.add('done'), 350);
+  });
+  // fallback in case 'load' is slow / video buffering
+  setTimeout(() => preloader && preloader.classList.add('done'), 2500);
+
+  /* ---------- AOS init ---------- */
+  if (window.AOS) {
+    AOS.init({
+      duration: 800,
+      once: true,
+      offset: 60,
+      easing: 'ease-out-cubic'
+    });
+  }
+
+  /* ---------- Footer year ---------- */
+  const yearEl = document.getElementById('year');
+  if (yearEl) yearEl.textContent = new Date().getFullYear();
+
+  /* ---------- Navbar: glass-on-scroll + active link ---------- */
+  const navbar = document.getElementById('navbar');
+  const navLinks = document.querySelectorAll('.nav-link');
+  const sections = document.querySelectorAll('section[id], .hero[id]');
+
+  const onScroll = () => {
+    navbar.classList.toggle('scrolled', window.scrollY > 40);
+
+    let current = 'home';
+    sections.forEach(sec => {
+      const top = sec.offsetTop - 120;
+      if (window.scrollY >= top) current = sec.id;
+    });
+    navLinks.forEach(link => {
+      link.classList.toggle('active', link.getAttribute('href') === `#${current}`);
+    });
+  };
+  window.addEventListener('scroll', onScroll, { passive: true });
+  onScroll();
+
+  /* ---------- Mobile nav toggle ---------- */
+  const navToggle = document.getElementById('navToggle');
+  const navLinksWrap = document.getElementById('navLinks');
+  navToggle.addEventListener('click', () => {
+    const isOpen = navLinksWrap.classList.toggle('open');
+    navToggle.classList.toggle('open', isOpen);
+    navToggle.setAttribute('aria-expanded', String(isOpen));
+  });
+  navLinksWrap.querySelectorAll('a').forEach(a => {
+    a.addEventListener('click', () => {
+      navLinksWrap.classList.remove('open');
+      navToggle.classList.remove('open');
+      navToggle.setAttribute('aria-expanded', 'false');
+    });
+  });
+
+  /* ---------- Parallax hero content on scroll ---------- */
+  const heroContent = document.querySelector('.hero-content');
+  const heroVideo = document.querySelector('.hero-video');
+  window.addEventListener('scroll', () => {
+    const y = window.scrollY;
+    if (y < window.innerHeight) {
+      if (heroContent) heroContent.style.transform = `translateY(${y * 0.25}px)`;
+      if (heroVideo) heroVideo.style.transform = `translate(-50%, calc(-50% + ${y * 0.12}px))`;
+    }
+  }, { passive: true });
+
+  /* ---------- Gallery: auto-load every image in /images ---------- */
+  const masonry = document.getElementById('masonryGallery');
+  const galleryImages = []; // populated as images resolve, used by lightbox
+
+  // Candidate filenames — drop any image with these names into /images
+  // and it will appear automatically. Covers common naming patterns.
+  const candidates = [];
+  const extensions = ['jpg', 'jpeg', 'png', 'webp'];
+  for (let i = 1; i <= 30; i++) {
+    extensions.forEach(ext => candidates.push(`images/gallery-${i}.${ext}`));
+  }
+  // also try a few generic / user-friendly names
+  ['farm', 'view', 'sunset', 'garden', 'villa', 'dining', 'bonfire', 'pool', 'exterior', 'interior']
+    .forEach(name => extensions.forEach(ext => candidates.push(`images/${name}.${ext}`)));
+
+  let loadedCount = 0;
+  let checkedCount = 0;
+  const seen = new Set();
+
+  function addToMasonry(src) {
+    if (seen.has(src)) return;
+    seen.add(src);
+    loadedCount++;
+
+    const item = document.createElement('div');
+    item.className = 'masonry-item';
+    item.setAttribute('data-aos', 'fade-up');
+    item.setAttribute('data-aos-delay', String((loadedCount % 6) * 60));
+
+    const img = document.createElement('img');
+    img.src = src;
+    img.alt = 'Manu Villa homestay photo';
+    img.loading = 'lazy';
+
+    item.appendChild(img);
+    masonry.appendChild(item);
+
+    const idx = galleryImages.length;
+    galleryImages.push(src);
+    item.addEventListener('click', () => openLightbox(idx));
+
+    if (window.AOS) AOS.refreshHard();
+  }
+
+  function finalizeGallery() {
+    if (loadedCount === 0) {
+      masonry.innerHTML = `
+        <div class="gallery-empty">
+          <p><strong>No photos found yet.</strong></p>
+          <p>Add images to the <code>/images</code> folder (e.g. <code>gallery-1.jpg</code>, <code>gallery-2.jpg</code> …) and they'll appear here automatically.</p>
+        </div>`;
+    }
+  }
+
+  candidates.forEach(src => {
+    const testImg = new Image();
+    testImg.onload = () => {
+      addToMasonry(src);
+      checkedCount++;
+      if (checkedCount === candidates.length) finalizeGallery();
+    };
+    testImg.onerror = () => {
+      checkedCount++;
+      if (checkedCount === candidates.length) finalizeGallery();
+    };
+    testImg.src = src;
+  });
+
+  // Safety net: if nothing resolves within 4s, show the empty state anyway
+  setTimeout(() => { if (loadedCount === 0) finalizeGallery(); }, 4000);
+
+  /* ---------- Lightbox ---------- */
+  const lightbox = document.getElementById('lightbox');
+  const lightboxImg = document.getElementById('lightboxImg');
+  const lightboxClose = document.getElementById('lightboxClose');
+  const lightboxPrev = document.getElementById('lightboxPrev');
+  const lightboxNext = document.getElementById('lightboxNext');
+  let currentIndex = 0;
+
+  function openLightbox(index) {
+    currentIndex = index;
+    lightboxImg.src = galleryImages[currentIndex];
+    lightbox.classList.add('open');
+    document.body.style.overflow = 'hidden';
+  }
+  function closeLightbox() {
+    lightbox.classList.remove('open');
+    document.body.style.overflow = '';
+  }
+  function showDelta(delta) {
+    if (!galleryImages.length) return;
+    currentIndex = (currentIndex + delta + galleryImages.length) % galleryImages.length;
+    lightboxImg.src = galleryImages[currentIndex];
+  }
+
+  lightboxClose.addEventListener('click', closeLightbox);
+  lightboxPrev.addEventListener('click', () => showDelta(-1));
+  lightboxNext.addEventListener('click', () => showDelta(1));
+  lightbox.addEventListener('click', (e) => { if (e.target === lightbox) closeLightbox(); });
+  document.addEventListener('keydown', (e) => {
+    if (!lightbox.classList.contains('open')) return;
+    if (e.key === 'Escape') closeLightbox();
+    if (e.key === 'ArrowLeft') showDelta(-1);
+    if (e.key === 'ArrowRight') showDelta(1);
+  });
+
+});
+
+/* ==========================================================================
+   MANU VILLA — Luxury Farmhouse Homestay
+   Design tokens: Forest Green / Beige / Gold, Fraunces + Jost
+   ========================================================================== */
+
+:root{
+  --forest:        #1E5631;
+  --forest-dark:    #0F2E1B;
+  --forest-soft:    #2F7A46;
+  --beige:          #F5F5DC;
+  --beige-soft:     #FBFAF2;
+  --white:          #FFFFFF;
+  --ink:            #16241B;
+  --gold:           #C9A227;
+  --gold-light:     #E8C766;
+  --overlay:        rgba(6, 14, 8, 0.55);
+  --glass-bg:        rgba(255,255,255,0.10);
+  --glass-border:    rgba(255,255,255,0.22);
+  --glass-bg-dark:   rgba(15, 35, 20, 0.55);
+
+  --font-display: 'Fraunces', serif;
+  --font-body: 'Jost', sans-serif;
+
+  --radius-lg: 22px;
+  --radius-md: 14px;
+  --radius-sm: 8px;
+
+  --shadow-soft: 0 20px 50px rgba(15, 46, 27, 0.14);
+  --shadow-strong: 0 30px 70px rgba(10, 30, 18, 0.28);
+
+  --ease: cubic-bezier(.22,1,.36,1);
+}
+
+*{ margin:0; padding:0; box-sizing:border-box; }
+html{ scroll-behavior:smooth; }
+
+body{
+  font-family: var(--font-body);
+  background: var(--beige-soft);
+  color: var(--ink);
+  overflow-x: hidden;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+}
+
+img{ max-width:100%; display:block; }
+code{
+  font-family: monospace;
+  background: rgba(30,86,49,0.08);
+  color: var(--forest);
+  padding: 2px 7px;
+  border-radius: 5px;
+  font-size: 0.88em;
+}
+a{ text-decoration:none; color:inherit; }
+ul{ list-style:none; }
+button{ font-family:inherit; border:none; background:none; cursor:pointer; }
+
+.container{
+  width:100%;
+  max-width: 1220px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+@media (prefers-reduced-motion: reduce){
+  *{ animation-duration:0.001ms !important; animation-iteration-count:1 !important; transition-duration:0.001ms !important; scroll-behavior:auto !important; }
+}
+
+:focus-visible{
+  outline: 2px solid var(--gold);
+  outline-offset: 3px;
+}
+
+/* ==========================================================================
+   PRELOADER
+   ========================================================================== */
+#preloader{
+  position:fixed; inset:0; z-index:9999;
+  background: var(--forest-dark);
+  display:flex; align-items:center; justify-content:center;
+  transition: opacity .6s var(--ease), visibility .6s var(--ease);
+}
+#preloader.done{ opacity:0; visibility:hidden; pointer-events:none; }
+.leaf-loader{ animation: pulse-leaf 1.4s ease-in-out infinite; }
+.leaf-path{ stroke-dasharray: 220; stroke-dashoffset: 220; animation: draw-leaf 1.6s var(--ease) forwards; }
+@keyframes draw-leaf{ to{ stroke-dashoffset:0; } }
+@keyframes pulse-leaf{ 0%,100%{ transform:scale(1); opacity:.85; } 50%{ transform:scale(1.08); opacity:1; } }
+
+/* ==========================================================================
+   NAVBAR — transparent glass
+   ========================================================================== */
+.navbar{
+  position:fixed; top:0; left:0; right:0; z-index:1000;
+  padding: 22px 0;
+  transition: padding .4s var(--ease), background .4s var(--ease), box-shadow .4s var(--ease);
+}
+.navbar.scrolled{
+  padding: 12px 0;
+  background: rgba(15, 40, 22, 0.55);
+  backdrop-filter: blur(18px) saturate(140%);
+  -webkit-backdrop-filter: blur(18px) saturate(140%);
+  box-shadow: 0 8px 30px rgba(0,0,0,0.15);
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+.nav-inner{
+  max-width:1220px; margin:0 auto; padding:0 24px;
+  display:flex; align-items:center; justify-content:space-between;
+}
+.brand{
+  display:flex; align-items:center; gap:10px;
+  font-family: var(--font-display);
+  font-size: 1.35rem;
+  letter-spacing: 0.06em;
+  color: var(--white);
+  font-weight:600;
+}
+.brand-leaf{ flex-shrink:0; }
+.nav-links{
+  display:flex; align-items:center; gap: 30px;
+}
+.nav-link{
+  color: rgba(255,255,255,0.88);
+  font-size: 0.92rem;
+  letter-spacing: 0.03em;
+  position:relative;
+  padding: 6px 2px;
+  transition: color .25s var(--ease);
+}
+.nav-link::after{
+  content:''; position:absolute; left:0; bottom:0; height:1px; width:0;
+  background: var(--gold-light);
+  transition: width .3s var(--ease);
+}
+.nav-link:hover, .nav-link.active{ color: var(--gold-light); }
+.nav-link:hover::after, .nav-link.active::after{ width:100%; }
+.nav-cta{
+  border: 1px solid rgba(255,255,255,0.4);
+  border-radius: 999px;
+  padding: 8px 20px !important;
+  background: rgba(255,255,255,0.08);
+}
+.nav-cta::after{ display:none; }
+.nav-cta:hover{ background: var(--gold); color: var(--forest-dark); border-color: var(--gold); }
+
+.nav-toggle{ display:none; flex-direction:column; gap:5px; width:26px; z-index:1100; }
+.nav-toggle span{ height:2px; width:100%; background:var(--white); border-radius:2px; transition: all .3s var(--ease); }
+.nav-toggle.open span:nth-child(1){ transform: translateY(7px) rotate(45deg); }
+.nav-toggle.open span:nth-child(2){ opacity:0; }
+.nav-toggle.open span:nth-child(3){ transform: translateY(-7px) rotate(-45deg); }
+
+/* ==========================================================================
+   HERO
+   ========================================================================== */
+.hero{
+  position:relative;
+  height:100vh; min-height:560px;
+  display:flex; align-items:center; justify-content:center;
+  overflow:hidden;
+  background: var(--forest-dark);
+}
+.hero-video{
+  position:absolute; top:50%; left:50%;
+  width:100%; height:100%; object-fit:cover;
+  transform: translate(-50%,-50%);
+  z-index:0;
+}
+.hero-overlay{
+  position:absolute; inset:0; z-index:1;
+  background: linear-gradient(180deg, rgba(6,14,8,0.62) 0%, rgba(6,14,8,0.42) 45%, rgba(6,14,8,0.75) 100%);
+}
+.hero-grain{
+  position:absolute; inset:0; z-index:1; opacity:0.05; pointer-events:none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+.hero-content{
+  position:relative; z-index:2;
+  text-align:center; color: var(--white);
+  padding: 0 20px;
+  max-width: 800px;
+}
+.hero-eyebrow{
+  font-size: 0.8rem; letter-spacing: 0.28em; font-weight:500;
+  color: var(--gold-light);
+  margin-bottom: 18px;
+}
+.hero-title{
+  font-family: var(--font-display);
+  font-weight:600;
+  font-size: clamp(3rem, 9vw, 6.2rem);
+  letter-spacing: 0.05em;
+  line-height:1;
+  text-shadow: 0 10px 40px rgba(0,0,0,0.35);
+}
+.hero-title span{ color: var(--gold-light); }
+.hero-sub{
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: clamp(1.2rem, 2.4vw, 1.7rem);
+  margin-top: 14px;
+  color: var(--beige);
+}
+.hero-tag{
+  margin-top: 18px;
+  font-size: 1rem;
+  letter-spacing: 0.04em;
+  color: rgba(255,255,255,0.88);
+}
+.hero-tag .dot{ color: var(--gold); margin: 0 6px; }
+
+.hero-buttons{
+  margin-top: 42px;
+  display:flex; flex-wrap:wrap; gap:16px; justify-content:center;
+}
+.btn{
+  display:inline-flex; align-items:center; gap:9px;
+  padding: 14px 28px;
+  border-radius: 999px;
+  font-size: 0.92rem; font-weight:500; letter-spacing:0.02em;
+  transition: transform .35s var(--ease), box-shadow .35s var(--ease), background .3s var(--ease), color .3s var(--ease);
+  will-change: transform;
+}
+.btn:hover{ transform: translateY(-4px); }
+.btn-whatsapp{
+  background: #25D366; color:#0b2b17;
+  box-shadow: 0 10px 30px rgba(37,211,102,0.35);
+}
+.btn-whatsapp:hover{ box-shadow: 0 16px 40px rgba(37,211,102,0.5); }
+.btn-call{
+  background: var(--gold);
+  color: var(--forest-dark);
+  box-shadow: 0 10px 30px rgba(201,162,39,0.35);
+}
+.btn-call:hover{ box-shadow: 0 16px 40px rgba(201,162,39,0.5); }
+.btn-outline{
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.55);
+  color: var(--white);
+  backdrop-filter: blur(6px);
+}
+.btn-outline:hover{ background: rgba(255,255,255,0.2); }
+.btn-outline-dark{
+  display:inline-flex; align-items:center; gap:8px;
+  padding: 13px 26px; border-radius:999px;
+  border: 1.5px solid var(--forest);
+  color: var(--forest);
+  margin-top: 26px;
+  transition: all .3s var(--ease);
+  font-weight:500;
+}
+.btn-outline-dark:hover{ background: var(--forest); color:var(--white); transform: translateY(-3px); }
+.btn-gold{
+  display:block; text-align:center;
+  margin-top: 26px;
+  padding: 14px 0;
+  border-radius: 999px;
+  background: linear-gradient(135deg, var(--gold-light), var(--gold));
+  color: var(--forest-dark);
+  font-weight:600; letter-spacing:0.03em;
+  box-shadow: 0 12px 28px rgba(201,162,39,0.3);
+  transition: transform .3s var(--ease), box-shadow .3s var(--ease);
+}
+.btn-gold:hover{ transform: translateY(-4px); box-shadow: 0 18px 36px rgba(201,162,39,0.45); }
+
+.scroll-cue{
+  position:absolute; bottom: 28px; left:50%; transform: translateX(-50%);
+  z-index:2; width: 26px; height: 42px; border:2px solid rgba(255,255,255,0.6);
+  border-radius: 999px;
+}
+.scroll-cue span{
+  position:absolute; top:6px; left:50%; width:4px; height:8px;
+  background: var(--gold-light); border-radius:2px; transform: translateX(-50%);
+  animation: scrollcue 1.8s ease-in-out infinite;
+}
+@keyframes scrollcue{ 0%{ opacity:1; top:6px;} 70%{ opacity:0; top:22px;} 100%{opacity:0; top:6px;} }
+
+/* ==========================================================================
+   RIVER DIVIDER — signature element (echoes the backwaters)
+   ========================================================================== */
+.river-divider{
+  position:relative; margin-top:-2px; z-index:3;
+  background: var(--beige-soft);
+  line-height:0;
+}
+.river-divider svg{ width:100%; height:60px; display:block; }
+.river-path{
+  fill: none;
+  stroke: url(#riverGradientFallback);
+  stroke: var(--gold);
+  stroke-width: 2;
+  opacity: 0.55;
+}
+
+/* ==========================================================================
+   SECTION HEADERS
+   ========================================================================== */
+section{ position:relative; padding: 110px 0; }
+.section-eyebrow{
+  font-size: 0.78rem; letter-spacing:0.28em; font-weight:600;
+  color: var(--gold);
+  text-transform:uppercase;
+  margin-bottom: 14px;
+}
+.section-title{
+  font-family: var(--font-display);
+  font-weight:600;
+  font-size: clamp(1.9rem, 3.6vw, 2.7rem);
+  color: var(--forest-dark);
+  line-height:1.2;
+  margin-bottom: 22px;
+}
+.section-title em{ font-style:italic; color: var(--forest); }
+.section-note{ color:#5b6a5f; margin-top:-8px; margin-bottom: 40px; font-size:0.95rem; }
+.center{ text-align:center; margin-left:auto; margin-right:auto; }
+.lead-text{ font-size:1.05rem; color:#3c4a3f; max-width:520px; }
+
+/* ==========================================================================
+   ABOUT
+   ========================================================================== */
+.about{ background: var(--beige-soft); }
+.about-grid{
+  display:grid; grid-template-columns: 1fr 1fr; gap: 70px; align-items:center;
+}
+.about-media{ position:relative; }
+.about-frame{
+  border-radius: var(--radius-lg);
+  overflow:hidden;
+  box-shadow: var(--shadow-strong);
+  aspect-ratio: 4/5;
+  background: linear-gradient(135deg, var(--forest), var(--forest-dark));
+}
+.about-frame img{ width:100%; height:100%; object-fit:cover; }
+.about-frame.img-fallback img{ display:none; }
+.about-frame.img-fallback::after{
+  content:'🌾 Manu Villa'; color: var(--beige); font-family: var(--font-display); font-size:1.4rem;
+  display:flex; align-items:center; justify-content:center; height:100%;
+}
+.about-badge{
+  position:absolute; bottom:-24px; right:-24px;
+  background: var(--forest);
+  color: var(--white);
+  border-radius: var(--radius-md);
+  padding: 20px 26px;
+  box-shadow: var(--shadow-soft);
+  text-align:center;
+}
+.about-badge .num{ display:block; font-family: var(--font-display); font-size:2rem; color: var(--gold-light); }
+.about-badge .label{ font-size:0.75rem; letter-spacing:0.05em; opacity:0.85; }
+.about-points{ margin-top: 28px; display:flex; flex-direction:column; gap:12px; }
+.about-points li{ display:flex; gap:10px; align-items:flex-start; color:#354a37; font-size:0.98rem; }
+.tick{ color: var(--gold); font-weight:700; }
+
+/* ==========================================================================
+   AMENITIES
+   ========================================================================== */
+.amenities{
+  background: linear-gradient(180deg, var(--forest-dark) 0%, var(--forest) 100%);
+  color: var(--beige-soft);
+}
+.amenities .section-title{ color: var(--white); }
+.amenity-grid{
+  display:grid; grid-template-columns: repeat(5, 1fr); gap: 22px; margin-top: 50px;
+}
+.amenity-card{
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border-radius: var(--radius-md);
+  padding: 30px 22px;
+  text-align:center;
+  transition: transform .4s var(--ease), background .4s var(--ease), box-shadow .4s var(--ease);
+}
+.amenity-card:hover{
+  transform: translateY(-8px);
+  background: rgba(255,255,255,0.16);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.25);
+}
+.amenity-icon{ font-size: 2.1rem; margin-bottom: 14px; }
+.amenity-card h3{ font-family: var(--font-display); font-size:1.02rem; margin-bottom:8px; color: var(--gold-light); }
+.amenity-card p{ font-size: 0.85rem; color: rgba(245,245,220,0.78); line-height:1.5; }
+
+/* ==========================================================================
+   GALLERY
+   ========================================================================== */
+.gallery{ background: var(--beige-soft); }
+.masonry{
+  margin-top: 20px;
+  column-count: 3;
+  column-gap: 18px;
+}
+.masonry-item{
+  break-inside: avoid;
+  margin-bottom: 18px;
+  border-radius: var(--radius-md);
+  overflow:hidden;
+  position:relative;
+  cursor: zoom-in;
+  box-shadow: var(--shadow-soft);
+  transition: transform .4s var(--ease), box-shadow .4s var(--ease);
+}
+.masonry-item:hover{ transform: translateY(-6px); box-shadow: var(--shadow-strong); }
+.masonry-item img{ width:100%; display:block; transition: transform .6s var(--ease); }
+.masonry-item:hover img{ transform: scale(1.06); }
+.masonry-item::after{
+  content:'⤢'; position:absolute; top:12px; right:12px;
+  width:34px; height:34px; border-radius:50%;
+  background: rgba(0,0,0,0.35); color:#fff;
+  display:flex; align-items:center; justify-content:center;
+  opacity:0; transition: opacity .3s var(--ease);
+  font-size: 1rem;
+}
+.masonry-item:hover::after{ opacity:1; }
+.gallery-empty{
+  text-align:center; padding: 50px 20px; color:#7a8a7d;
+  border: 1px dashed #c8c8ae; border-radius: var(--radius-md);
+  grid-column: 1/-1;
+}
+
+.lightbox{
+  position:fixed; inset:0; z-index:2000;
+  background: rgba(6,14,8,0.94);
+  display:none; align-items:center; justify-content:center;
+  padding: 40px;
+}
+.lightbox.open{ display:flex; }
+.lightbox img{ max-width:88vw; max-height:82vh; border-radius: 10px; box-shadow: 0 30px 80px rgba(0,0,0,0.5); }
+.lightbox-close{
+  position:absolute; top:24px; right:32px; color:#fff; font-size:2.4rem; line-height:1;
+}
+.lightbox-nav{
+  color:#fff; font-size:3rem; padding: 10px 18px; opacity:0.75; transition: opacity .2s;
+}
+.lightbox-nav:hover{ opacity:1; color: var(--gold-light); }
+
+/* ==========================================================================
+   PRICING
+   ========================================================================== */
+.pricing{ background: var(--beige); }
+.pricing-grid{
+  display:grid; grid-template-columns: 1fr 1fr; gap: 34px;
+  max-width: 800px; margin: 40px auto 0;
+}
+.price-card{
+  background: var(--white);
+  border-radius: var(--radius-lg);
+  padding: 42px 36px;
+  text-align:center;
+  box-shadow: var(--shadow-soft);
+  position:relative;
+  border: 1px solid rgba(30,86,49,0.08);
+  transition: transform .4s var(--ease), box-shadow .4s var(--ease);
+}
+.price-card:hover{ transform: translateY(-8px); box-shadow: var(--shadow-strong); }
+.price-card.featured{
+  background: linear-gradient(160deg, var(--forest) 0%, var(--forest-dark) 100%);
+  color: var(--white);
+}
+.price-badge{
+  position:absolute; top:-14px; left:50%; transform:translateX(-50%);
+  background: var(--gold); color: var(--forest-dark);
+  font-size:0.72rem; letter-spacing:0.08em; font-weight:600;
+  padding: 6px 18px; border-radius: 999px;
+  box-shadow: 0 6px 16px rgba(201,162,39,0.4);
+}
+.price-tag{ font-size:0.85rem; letter-spacing:0.08em; text-transform:uppercase; opacity:0.7; margin-bottom:10px; }
+.price-amount{
+  font-family: var(--font-display); font-weight:600;
+  font-size: 3rem; color: var(--forest);
+}
+.price-card.featured .price-amount{ color: var(--gold-light); }
+.rupee{ font-size:1.6rem; vertical-align: 8px; }
+.price-desc{ margin-top:6px; margin-bottom:22px; opacity:0.75; font-size:0.95rem; }
+.price-list{ text-align:left; display:flex; flex-direction:column; gap:10px; font-size:0.9rem; }
+.price-list li{ padding-left:22px; position:relative; opacity:0.9; }
+.price-list li::before{ content:'✓'; position:absolute; left:0; color: var(--gold); font-weight:700; }
+
+/* ==========================================================================
+   REVIEWS
+   ========================================================================== */
+.reviews{ background: var(--beige-soft); }
+.rating-badge{
+  display:flex; align-items:center; justify-content:center; gap:14px;
+  margin: 0 auto 50px; flex-wrap:wrap;
+}
+.stars{ color: var(--gold); font-size:1.6rem; letter-spacing:2px; }
+.rating-number{ font-family: var(--font-display); font-size:1.6rem; color: var(--forest-dark); font-weight:600; }
+.rating-source{ font-size:0.85rem; color:#6d7a6f; border-left:1px solid #cfcfb4; padding-left:14px; }
+
+.review-grid{
+  display:grid; grid-template-columns: repeat(3, 1fr); gap: 26px;
+}
+.review-card{
+  background: var(--white);
+  border-radius: var(--radius-md);
+  padding: 34px 28px;
+  box-shadow: var(--shadow-soft);
+  border-top: 3px solid var(--gold);
+  transition: transform .4s var(--ease);
+}
+.review-card:hover{ transform: translateY(-6px); }
+.review-card p{ font-family: var(--font-display); font-style:italic; color:#2c3a2e; font-size:1.02rem; line-height:1.6; }
+.review-card footer{ margin-top: 16px; font-size:0.8rem; color: var(--forest); letter-spacing:0.05em; }
+
+/* ==========================================================================
+   LOCATION
+   ========================================================================== */
+.location{ background: var(--beige); }
+.location-grid{
+  display:grid; grid-template-columns: 1fr 1.2fr; gap: 60px; align-items:center;
+}
+.location-map{
+  border-radius: var(--radius-lg);
+  overflow:hidden;
+  height: 380px;
+  box-shadow: var(--shadow-strong);
+}
+
+/* ==========================================================================
+   CONTACT
+   ========================================================================== */
+.contact{ background: linear-gradient(180deg, var(--forest) 0%, var(--forest-dark) 100%); color:var(--white); }
+.contact .section-title{ color: var(--white); }
+.contact-grid{
+  display:grid; grid-template-columns: repeat(3, 1fr); gap: 26px; margin-top: 40px;
+}
+.contact-card{
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  backdrop-filter: blur(14px);
+  border-radius: var(--radius-md);
+  padding: 36px 24px;
+  text-align:center;
+  transition: transform .35s var(--ease), background .35s var(--ease);
+}
+.contact-card:hover{ transform: translateY(-8px); background: rgba(255,255,255,0.16); }
+.contact-icon{ font-size:2rem; margin-bottom:12px; }
+.contact-card h3{ font-family: var(--font-display); color: var(--gold-light); margin-bottom:8px; font-size:1.05rem; }
+.contact-card p{ color: rgba(245,245,220,0.85); font-size:0.95rem; }
+
+/* ==========================================================================
+   FOOTER
+   ========================================================================== */
+.site-footer{ background: var(--forest-dark); color: rgba(245,245,220,0.75); padding: 34px 0; }
+.footer-inner{ display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:14px; }
+.footer-brand{ font-size:1.05rem; color: var(--beige); }
+.footer-copy{ font-size:0.85rem; }
+
+/* ==========================================================================
+   FLOATING ACTION BUTTONS
+   ========================================================================== */
+.fab{
+  position:fixed; z-index:900;
+  width:58px; height:58px; border-radius:50%;
+  display:flex; align-items:center; justify-content:center;
+  color:#fff;
+  box-shadow: 0 12px 28px rgba(0,0,0,0.3);
+  transition: transform .3s var(--ease), box-shadow .3s var(--ease);
+}
+.fab:hover{ transform: scale(1.1); }
+.fab-whatsapp{ background:#25D366; bottom: 96px; right: 26px; animation: fab-pulse 2.4s ease-in-out infinite; }
+.fab-call{ background: var(--gold); color: var(--forest-dark); bottom: 26px; right: 26px; }
+@keyframes fab-pulse{
+  0%,100%{ box-shadow: 0 12px 28px rgba(37,211,102,0.35), 0 0 0 0 rgba(37,211,102,0.5); }
+  50%{ box-shadow: 0 12px 28px rgba(37,211,102,0.35), 0 0 0 10px rgba(37,211,102,0); }
+}
+
+/* ==========================================================================
+   RESPONSIVE
+   ========================================================================== */
+@media (max-width: 980px){
+  .about-grid, .location-grid{ grid-template-columns: 1fr; gap:50px; }
+  .amenity-grid{ grid-template-columns: repeat(3, 1fr); }
+  .review-grid{ grid-template-columns: 1fr; }
+  .contact-grid{ grid-template-columns: 1fr; }
+  .masonry{ column-count: 2; }
+  .location-map{ height: 320px; }
+}
+
+@media (max-width: 760px){
+  section{ padding: 80px 0; }
+  .nav-links{
+    position:fixed; top:0; right:0; height:100vh; width: min(78vw, 320px);
+    background: rgba(10,30,17,0.92);
+    backdrop-filter: blur(18px);
+    flex-direction:column; align-items:flex-start;
+    padding: 100px 32px 40px;
+    gap: 26px;
+    transform: translateX(100%);
+    transition: transform .45s var(--ease);
+  }
+  .nav-links.open{ transform: translateX(0); }
+  .nav-toggle{ display:flex; }
+  .nav-cta{ margin-top:10px; }
+  .amenity-grid{ grid-template-columns: repeat(2, 1fr); }
+  .pricing-grid{ grid-template-columns: 1fr; }
+  .masonry{ column-count: 1; }
+  .hero-buttons{ flex-direction:column; align-items:stretch; }
+  .btn{ justify-content:center; }
+  .about-badge{ right:0; bottom:-18px; }
+}
+
+@media (max-width: 480px){
+  .hero-title{ font-size: 2.6rem; }
+  .amenity-grid{ grid-template-columns: 1fr 1fr; gap:14px; }
+  .amenity-card{ padding:22px 14px; }
+}
